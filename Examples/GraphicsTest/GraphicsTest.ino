@@ -44,7 +44,7 @@
 #include <Wire.h>
 #endif
 
-// ESP32 CS(SS)=5,SCL(SCK)=18,SDA(MOSI)=23,BUSY=15,RES(RST)=17,DC=16,BL=4
+// ESP32 CS(SS)=5,SCL(SCK)=18,SDA(MOSI)=23,RES(RST)=17,DC=16,BL=4
 U8X8_ST7567_ENH_DG128064I_4W_HW_SPI u8x8(/* cs=*/ 5, /* dc=*/ 16, /* reset=*/ 17); 
 
 /*
